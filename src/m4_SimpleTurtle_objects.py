@@ -9,8 +9,8 @@ Concepts include:
 Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
-Authors: Tristen Foisy, David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
+Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
+         Aaron Wilkin, their colleagues, and Tristen Foisy
 """
 ###############################################################################
 #
