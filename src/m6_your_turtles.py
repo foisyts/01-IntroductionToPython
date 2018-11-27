@@ -48,6 +48,6 @@ spinny = rg.SimpleTurtle('circle')
 spinny.pen = rg.Pen('blue', 4)
 #spinny.forward(100)
 for k in range(500):
-    spinny.forward(45 -k)
+    spinny.forward(45 - k)
     spinny.left(31)
     spinny.forward(k)
