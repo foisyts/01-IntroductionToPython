@@ -10,7 +10,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 ########################################################################
 
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #   You should have RUN the  m5e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
@@ -32,10 +32,22 @@ import rosegraphics as rg
 
 window = rg.TurtleWindow()
 
+window.tracer(3)
+
+leo = rg.SimpleTurtle('turtle')
+leo.pen = rg.Pen('cyan', 10)
+for k in range(360):
+    leo.forward(1)
+    leo.left(1)
+
+for k in range(720):
+    leo.forward(1)
+    leo.right(1)
+
 spinny = rg.SimpleTurtle('circle')
 spinny.pen = rg.Pen('blue', 4)
-spinny.forward(100)
-for k in range(700):
-    spinny.forward(75)
-    spinny.left(91)
+#spinny.forward(100)
+for k in range(500):
+    spinny.forward(45 -k)
+    spinny.left(31)
     spinny.forward(k)
