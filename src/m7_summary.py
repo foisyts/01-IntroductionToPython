@@ -11,7 +11,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 
 ########################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Write code that accomplishes the following (and ONLY the following),
 #   in the order listed:
 #
@@ -51,6 +51,7 @@ eric = rg.SimpleTurtle()
 
 eric.pen = rg.Pen('blue', 1)
 
+eric.left(90)
 eric.forward(200)
 eric.pen_up()
 eric.go_to(rg.Point(100, -40))
