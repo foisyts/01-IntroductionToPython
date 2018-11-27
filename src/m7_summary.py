@@ -47,12 +47,16 @@ import rosegraphics as rg
 
 window = rg.TurtleWindow()
 
-turtle = rg.SimpleTurtle
-turtle.pen = rg.Pen('blue', 1)
-turtle.forward(1)
-turtle.pen_up()
-turtle.go_to(100, -40)
-turtle.pen_down()
-turtle.pen = rg.Pen('blue', 10)
+eric = rg.SimpleTurtle()
+
+eric.pen = rg.Pen('blue', 1)
+
+eric.forward(200)
+eric.pen_up()
+eric.go_to(rg.Point(100, -40))
+eric.pen_down()
+eric.pen = rg.Pen('green', 10)
+eric.go_to(rg.Point(100, -190))
+
 
 window.close_on_mouse_click()
